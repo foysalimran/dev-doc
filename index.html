@@ -11,6 +11,32 @@
             padding-right: 15px;
             margin: auto;
         }
+        .section-padding {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+        }
+        .github{
+background-color: #EC4C27;
+color: #ffffff;
+        }
+        .html {
+            background-color: #DD4A25;
+            color: #ffffff;
+        }
+
+        .css {
+background-color: #254ADD;
+color: #fff;
+        }
+        .javascript {
+background-color: #EFD81B;
+color: #171717
+        }
+        .wordpress {
+background-color: #1F7195;
+color: #ffffff;
+        }
     </style>
 </head>
 <body>
@@ -22,24 +48,53 @@
         </div>
     </header>
 
-    <section class="github">
+    <section class="html section-padding">
         <div class="container">
             <div class="row">
-                <h3>Github documentation</h3>
+                <h1>HTML documentation</h1>
                 <pre>
-echo "# dev-doc" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/foysalimran/dev-doc.git
-git push -u origin main
+                    Here is some documentation for HTML
                 </pre>
             </div>
         </div>
     </section>
 
-    <section class="wordpress">
+    <section class="css section-padding">
+        <div class="container">
+            <div class="row">
+                <h3>CSS documentation</h3>
+                <pre>Here is some documentation for CSS</pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="javascript section-padding">
+        <div class="container">
+            <div class="row">
+                <h3>Javascript documentation</h3>
+                <pre>Here is some documentation for javascript</pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="github section-padding">
+        <div class="container">
+            <div class="row">
+                <h3>Github documentation</h3>
+                <pre>
+                    echo "# dev-doc" >> README.md
+                    git init
+                    git add README.md
+                    git commit -m "first commit"
+                    git branch -M main
+                    git remote add origin https://github.com/foysalimran/dev-doc.git
+                    git push -u origin main
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="wordpress section-padding">
         <div class="container">
             <div class="row">
                 <h3>WordPress documentation</h3>
@@ -49,5 +104,7 @@ git push -u origin main
             </div>
         </div>
     </section>
+
+
 </body>
 </html>
