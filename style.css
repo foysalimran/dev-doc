@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+h3 {
+  font-size: 38px;
+  line-height: 45px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.github {
+  background-color: #ec4c27;
+  color: #ffffff;
+}
+.html {
+  background-color: #dd4a25;
+  color: #ffffff;
+}
+
+.css {
+  background-color: #254add;
+  color: #fff;
+}
+.javascript {
+  background-color: #efd81b;
+  color: #171717;
+}
+.wordpress {
+  background-color: #1f7195;
+  color: #ffffff;
+}
+.php {
+  background-color: #7477ae;
+  color: #ffffff;
+}
+.bootstrap {
+  background-color: #533b78;
+  color: #ffffff;
+}
